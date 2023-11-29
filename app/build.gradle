@@ -23,11 +23,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '34.0.0 rc4'
 }
 
 dependencies {
-    def shizuku_version = "13.1.1"
+    def shizuku_version = "13.1.5"
     implementation "dev.rikka.shizuku:api:$shizuku_version"
 
     // Add this line if you want to support Shizuku
