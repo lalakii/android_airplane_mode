@@ -7,7 +7,7 @@
         android:theme="@android:style/Theme.DeviceDefault">
 
         <activity
-            android:name=".AirActivity"
+            android:name=".ui.AirActivity"
             android:exported="true">
 
             <intent-filter>

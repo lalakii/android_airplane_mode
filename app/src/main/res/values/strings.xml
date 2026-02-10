@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">android_airplane_mode</string>
     <string name="set_airplane">setAirplaneMode</string>
+    <string name="set_airplane_with_shell">setAirplaneMode with Shell</string>
     <string name="need_permission">Please install shizuku app and grant permissions.</string>
+    <string name="air_on">Airplane mode turned on.</string>
+    <string name="air_off">Airplane mode turned off.</string>
+    <string name="air_unknown">Unable to get airplane mode status!</string>
+    <string name="unsupported">This operation is not supported!</string>
 </resources>
