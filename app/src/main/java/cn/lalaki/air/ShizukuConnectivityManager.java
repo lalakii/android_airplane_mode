@@ -93,12 +93,8 @@ public class ShizukuConnectivityManager implements ServiceConnection {
         } else {
             Shizuku.UserServiceArgs userServiceArgs = mUserServiceArgs;
             if (userServiceArgs == null) {
-                userServiceArgs = new Shizuku.UserServiceArgs(new ComponentName(context.getPackageName(), ShellExecuteService.class.getName())).daemon(false).debuggable(false).processNameSuffix("lalaki_airplane_mode").version(1);
+                userServiceArgs = new Shizuku.UserServiceArgs(new ComponentName(context.getPackageName(), ShellExecuteService.class.getName())).daemon(false).debuggable(false).processNameSuffix("airplane_mode_by_lalaki").version(1);
                 mUserServiceArgs = userServiceArgs;
-            }
-            try {
-                Shizuku.unbindUserService(userServiceArgs, this, true);
-            } catch (Exception ignored) {
             }
             mEnabled = enable;
             CountDownLatch countDownLatch = mCountDownLatch;

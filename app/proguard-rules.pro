@@ -1,0 +1,1 @@
+-keep class cn.lalaki.air.ShellExecuteService
