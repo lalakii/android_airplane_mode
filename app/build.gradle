@@ -3,7 +3,7 @@ plugins {
 }
 android {
     namespace 'cn.lalaki.air'
-    compileSdk = 36
+    compileSdkPreview = "CinnamonBun"
     defaultConfig {
         applicationId "cn.lalaki"
         minSdk 24
