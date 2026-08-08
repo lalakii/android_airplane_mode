@@ -1,5 +1,6 @@
 # Android Airplane Mode
 ![API: 27 or Or older. (shields.io)](https://img.shields.io/badge/API-27%20Or%20earlier-yellow?logo=android)
+[![Downloads](https://img.shields.io/github/downloads/lalakii/android_airplane_mode/total)](https://github.com/lalakii/android_airplane_mode/releases)
 + Requires shizuku permission：[Get Shizuku App](https://github.com/RikkaApps/Shizuku/releases/)
 + TargetSdk <= 27 （Android 8.1）
 
